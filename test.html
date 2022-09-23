@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios en HTML</title>
+</head>
+<body>
+<h1>Formularios en HTML</h1>
+<hr>
+<form action="#" method="post"><!--get para formularios publicos post para formularios privados!-->
+
+	<fieldset>
+		<legend><em>Llena los campos del formulario</em></legend>
+		<table>
+			<tr>
+				<td><label>Nombre</label></td>
+				<td><input type="text" placeholder="Nombre completo "name="nombre"></td>
+			</tr>
+			<tr>
+				<td><label for="correo">Correo</label></td>
+				<td><input type="email" id="correo" placeholder="Correo valido"name=""></td>
+			</tr>
+			<tr>
+				<td><label>Contraseña</label></td>
+				<td><input type="password" placeholder="Ingrese una contraseña"name=""></td>
+			</tr>
+			<tr>
+				<td><label>Telefono</label></td>
+				<td><input type="tel" name=""></td>
+			</tr>
+			<tr>
+				<td><label>Genero</label></td>
+				<td>
+					<input type="radio" name="genero" id="femenino">Femenino
+					<label for="femenino"></label>
+					<input type="radio" name="genero" id="masculino">Masculino
+					<label for="masculino"></label>
+					<input type="radio" name="genero" id="otro">Otro
+				</td>
+			</tr>
+			<tr>
+				<td><label>preferencias</label></td>
+				<td>
+					<input type="checkbox" name="">musica
+					<input type="checkbox" name="">videojuegos
+					<input type="checkbox" name="">lectura
+					<input type="checkbox" name="">deportes
+					<input type="checkbox" name="">comida
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>fecha de nacimiento</label>
+				</td>
+				<td>
+					<select>
+						<option>Dia</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+				</td>
+				<td>
+					<select>
+						<option>Mes</option>
+						<option>ene</option>
+						<option>feb</option>
+					</select>
+				</td>
+				<td>
+					<select>
+					<option>Año</option>
+					<option>1909</option>
+					
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="reset" name=""></td>
+				<td><input type="submit" value="REGISTRAR "name=""></td>
+			</tr>
+		</table>
+	</fieldset>
+</form>
+</body>
+</html>

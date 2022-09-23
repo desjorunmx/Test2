@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios en HTML</title>
+</head>
+<body>
+	<h1>Formularios en HTML</h1>
+	<hr>
+    <!--Metodo get para datos publicos serán visibles y editables en la red,y metodo post para datos privados de manera cifrada-->
+    <!--action es para enviar la informacion a la base de datos, pero por defecto se pone # para que no quede vacio.-->
+	<form action="#" method="get">
+		<fieldset>
+			<legend><em>Llena los campos del formulario</em></legend><!--em es para poner la letra cursiva-->
+			<table>
+				<tr>
+					<td><label>Nombre:</label></td>
+					<td><input type="text" name="nombre" placeholder="Nombre completo" required></td> <!--required es para decir que requerimos que el campo no este vacio para enviar datos vacios-->
+				</tr>
+				<tr>
+					<td><label for="correo">Correo:</label></td>
+					<td><input type="email" id="correo"placeholder="Correo válido" name=""></td><!--el email no envía información si no cumple con las condiciones de email.-->
+				</tr>
+				<tr>
+					<td><label>Contraseña:</label></td>
+					<td><input type="password" name=""></td>
+				</tr>
+				<tr>
+					<td><label>Telefono:</label></td>
+					<td><input type="tel" name=""></td><!--Para telefonos type tel, y para solo capturas numeros number, puede aumentar con las compras, temperaturas y alturas-->
+				</tr>
+				<tr>
+					<td><label>Género:</label></td>
+					<td>
+						<input type="radio" name="genero" id="femenino" checked>
+						<label for="femenino">Femenino</label>
+						<input type="RADIO" name="genero"id="masculino">
+						<label for="masculino">Masculino</label>
+						<input type="RADIO" name="genero"id="otro"><!--for y id es para responer el texto con el input-->
+						<label for="otro">Otro</label>
+					</td><!--Esto es para generar circulos para seleccionar una opción-->
+				</tr>
+				<tr>
+					<td><label>Preferencias:</label></td>
+					<td>
+						<input type="checkbox" name="">Cine <!--Genera un cuadro para seleccionar uno solo o más-->
+						<input type="checkbox" name="">Música
+						<input type="checkbox" name="">Deportes
+						<input type="checkbox" name="" checked disabled>Arte <!--cheked para que este seleccionado y deshabilitado-->
+						<input type="checkbox" name="">Videojuegos
+						<input type="checkbox" name="" disabled>Cultivar
+					</td>
+				</tr>
+				<tr>
+					<td><label>Fecha de nacimiento:</label></td>
+					<td>
+						<select><!--Es para crer listas desplegables para seleccionar un elemento.-->
+							<option>Día</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+						</select>
+						<!--<input data type="data" name="">-->
+						<select>
+							<option>Mes</option>
+							<option>Enero</option>
+							<option>Febrero</option>
+							<option>Marzo</option>
+						</select>
+						<select>
+							<option>Año</option>
+							<option>2022</option>
+							<option>2021</option>
+							<option>2020</option>
+							<option>1909</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Foto</label></td>
+					<td><input type="file" name=""></td><!--No es preferible de usarlo, a menos que sepas protocolos de red-->
+				</tr>
+				<tr>
+					<td><input type="reset" value="BORRAR"name=""></td><!--Reestablecer la información en los campos input-->
+					<td><input type="submit" value="REGISTRAR"name=""></td><!--Enviar los datos del campos a un servidor web-->
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+
+</body>
+</html>

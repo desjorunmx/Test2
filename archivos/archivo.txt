@@ -1,0 +1,79 @@
+URL Jerarquia
+
+Elementos de navegacion principales
+
+Explicacion breve de lo que trata la pagina.
+
+Mas importante a lo menos:
+
+Proposito
+
+Elementos desplegables
+
+Maximo 3 niveles
+
+Darle un orden apropiado por abecedario.
+
+Preguntas frecuentes
+
+Un sitio web debe tener un solo proposito, para no confundir.
+
+DNS--------------
+Servidor de nombre DOminio
+Es un agente dispositivo que se encarga de cambiar las direcciones por los nombres
+de domino. 192.168.1.10 = google.com.
+para saber la direccion de alguna sitio web podemos utilizar ping en CMD de windows
+y con un espacio agregar el nombre del sitio web.
+
+Un sitio web estatico son conocidas com opaginas informativos
+
+Un sitio web dinamico son asi porque involucran lengeujas de programacion.
+Se hace un analisis sintatico y una conexion a la base de datos, hay algo de trafico.
+
+Para usar lo haremos en codigo y despues Wordpress.
+
+Un anuncio enorme 24/7 que ayuda a las empresas y eso beneficia por los sitios web.
+
+Promover la comuicación con los clientes, y traer posibles clientes.
+
+Compren, regresen y lleguen.
+
+La piramide invertida
+
+El usuario llega hasta arriba en la primera parte,
+y en esta parte debemos ofrecer la solucion ahi mismo.
+
+Eficaz para mostrar y dar acceso a la información.
+Evitar llamadas largas innecesarias.
+
+Consejos
+
+Anticipar las necesidades del usuario maxizimar resultados.
+Elegir tipografias legibles.
+Revisar los enlaces rotos en el sitio web.
+
+Cabecera del Sitio
+Incluir opiniones fundamentales.
+Header {{Presentacion
+Body
+Footer
+Datos de contacto
+
+Evitar imagenes
+
+Cuando tu sitio web es bastante grande,
+crear un buscador interno.
+
+Evitar en pagina web
+
+Animaciones Flash
+Editores de plantillas
+Diseños reciclados, Maquetacion con tablas y con Photoshop.
+
+Que se debe buscar en un pagina web
+
+Responsive Web Design
+Diseños basados en estandares, propios
+CMS Adaptados
+OPtimizacion SEO
+

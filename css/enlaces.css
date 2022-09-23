@@ -1,0 +1,26 @@
+a.boton{
+	text-decoration: none;
+	font-weight: bold;
+	background: #0075a1;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+a.boton:hover{
+	opacity: 0.8;
+	background: #000;
+	box-shadow: 5px 5px 5px #ccc;
+}
+@keyframes anim{
+    0% {background-color: #ff0;} /*Amarillo*/
+   25% {background-color: #f80;} /*Naranja*/
+   50% {background-color: #fff;} /*Negro*/
+   75% {background-color: #f80;} /*Otra vez naranja*/
+  100% {background-color: #ff0;} /*Otra vez amarillo*/
+}
+body {
+  animation-name: anim;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}

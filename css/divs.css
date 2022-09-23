@@ -1,0 +1,28 @@
+.centrado{
+	width: 1400px;
+	margin: auto;
+}
+.contenedor{
+	border: 1px solid #ccc;
+	float: left;
+	border-radius: 5px;
+	margin-left: 20px;
+	padding: 20px;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.menu{
+	width: 200px;
+	height: 200px;
+}
+.contenido{
+	width: 500px;
+	height: 400px;
+}
+.aside{
+	width: 250px;
+	height: 350px;
+}
+div{
+	text-align: center;
+	align-content: center;
+}

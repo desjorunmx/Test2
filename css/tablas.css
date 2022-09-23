@@ -1,0 +1,32 @@
+table{
+	width: 600px;
+	margin: auto;
+}
+th{
+	border-bottom: #d94a38 solid 3px;
+
+}
+td{
+	text-align: center;
+	padding-top: 10px;
+	border-bottom: #ccc solid 1px;
+}
+/*even pares y odd nones impares
+*/
+tr: nth-child(even){
+	background: #ccc;
+}
+tfoot td{
+	background: #666;
+	color: #fff;
+	border-radius: 0 0 10px 10px;
+}
+caption{
+	background: #666;
+	color: #fff;
+	border-radius: 10px 10px 0 0 ;
+	padding: 5px 0;
+}
+tbody tr:hover{
+	background: #ECECC3;
+}

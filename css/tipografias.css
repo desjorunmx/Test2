@@ -1,0 +1,49 @@
+.verdana {
+	font-family: verdana;
+}
+.arial {
+	font-family: Arial;
+}
+.brush {
+	font-family: 'Brush script mt';
+	font-size: 28px;
+}
+.century{
+	font-family: 'Century gothic';
+}
+.courier{
+	font-family: courier;
+}
+.impact{
+	font-family: impact;
+}
+.monotype{
+	font-family:'monotype corsiva';
+}
+.mistral{
+	font-family: mistral;
+}
+.papyrus{
+	font-family: papyrus;
+}
+.tahoma{
+	font-family: tahoma;
+}
+.georgia{
+	font-family: georgia;
+}
+.sans-serif{
+	font-family: sans-serif;
+}
+@font-face{
+	src:url('../fuentes/pt-sans.ttf');
+	font-family: 'pt-sans';
+}
+.pt-sans{
+	font-family: 'pt-sans';
+	font-size: 25px;
+}
+.robotocondensed{
+	font-family: 'Roboto Condensed', cursive;
+	font-size: 25px;
+}

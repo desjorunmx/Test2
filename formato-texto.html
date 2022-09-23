@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formatos de texto</title>
+	<style type="text/css">
+		.negrita{ font-weight: bold; }
+		.cursiva{ font-style: italic; }
+		.subrayado{ text-decoration: underline; }
+		.tachado{ text-decoration: line-through; }
+		.combinado{font-weight: bold;
+					font-style: italic;
+					text-decoration: underline;}
+	</style><!--Fuente externa es lo recomendable para proyectos-->
+	</head>
+	<body>
+	<h1>Formatos de texto</h1>
+	<hr>
+	<h2>Formatos fisicos</h2>
+	<b>Texto en negrita</b><br>
+	<!--b = black = negrita-->
+	<u>Texto subrayado</u><br>
+	<!--u = underline subrayado-->
+	<s>Texto tachado</s><br>
+	<!--s=strike=tachado-->
+	<b><i><u>Texto en negrita, subrayado y tachado</u></i></b><br>
+	<!--tags anidados-->
+	<h2>Formatos logicos</h2>
+	Texto normal<br>
+	<strong>Texto en negrita</strong><br>
+	<!--strong=fuerte-->
+	<em>Texto en cursiva</em><br>
+	<!--em = empahsis= enfasis-->
+	<ins>Texto insertado</ins><br>
+	<del>Texto eliminado</del><br>
+	<strong><em><del>Texto en negrita, cursiva y tachado</del></em></strong><br>
+
+	<h2>Formato con CSS</h2>
+
+	Texto normal<br>
+	<p class="negrita">Negrita</p>
+	<p class="cursiva">Cursiva</p><!--Asi se crean clases en CSS.-->
+	<p class="subrayado">Subrayado</p>
+	<p class="tachado">tachado</p>
+	<!--Estamos declarando variables con atributos con CSS, una regla para que me de este comportamiento-->
+	<!--Editar hojas de estilo sin necesitar hojas independientes, con la herramienta style.-->
+	<p class="negrita cursiva subrayado">Negrita, Cursiva y subrayado</p>
+	<!--Otra manera mas sencilla, es contatenar las clases ya hechas.-->
+
+	<!--Hay tags que por propia naturaleza contienen cierto espaciado.-->
+
+	<h1>Encabezado nivel h1</h1><!--Resumen general de lo que va a tratar. Predominar y ve el usuario. Se usa una sola vez.-->
+	<h2>Encabezado nivel h2</h2><!--Pueden ayudarnos para generar divisiones logicas para subtemas.-->
+	<h3>Encabezado nivel h3</h3>
+	<h4>Encabezado nivel h4</h4>
+	<h5>Encabezado nivel h5</h5><!--Se puede utilizar para terminos y condiciones.-->
+	<h6>Encabezado nivel h6</h6>
+
+
+<body>
+
+</body>
+</html>

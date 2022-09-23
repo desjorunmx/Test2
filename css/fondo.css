@@ -1,0 +1,8 @@
+body{
+	background: url('../imagenes/fondo.jpg')no-repeat center center fixed;
+	/*.. significa que sube una carpeta o un nivel hacia arriba de donde se encuentra el elemento
+	no-repeat es para no repetir la imagen, center es para centrar en lo alto y lo ancho
+	fixed para mantener fija la imagen de fondo*/
+	background-size: cover;
+	/*Cover sirve para amplicar el ancho de la imagen en la pantalla*/
+}
