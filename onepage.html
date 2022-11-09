@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+	<!--Framework que sirve para hacer una retraso de recorrido-->
+	<title>Diseño One Page</title>
+	<link rel="stylesheet" type="text/css" href="css/onepage.css">
+</head>
+<body id="inicio">
+	<header>
+		<div id="menu">
+			<nav>
+				<ul>
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#servicios">Servicios</a></li>
+					<li><a href="#nosotros">Nosotros</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section>
+		<div id="principal">
+			<article>
+				<div class="contenido">
+					<h1>Título del proyecto</h1>
+					<hr>
+					<img src="imagenes/fondo.jpg">
+
+					<h2 id="servicios">Servicios</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h2 id="nosotros">Nosotros</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h2 id="contacto">Contacto</h2>
+					<form>
+						<fieldset>
+							<legend><em>Llena el siguiente formulario: </em></legend>
+							<table>
+								<tr>
+									<td><label>Nombre:</label></td>
+									<td><input type="text" name=""></td>
+								</tr>
+								<tr>
+									<td><label>Email:</label></td>
+									<td><input type="email" name=""></td>
+								</tr>
+								<tr>
+									<td><label>Mensaje:</label></td>
+									<td><textarea></textarea></td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td><!--Para hacer un brinco de tab o un espacio en blanco-->
+									<td><input type="submit" name=""></td>
+								</tr>
+							</table>
+						</fieldset>
+					</form>
+				</div>
+			</article>
+		</div>
+	</section>
+	<script>
+		$("#menu a").on("click",function(t){ 
+				if(""!==this.hash){
+					t.preventDefault(); 
+					var e=this.hash; 
+					$("html, body").animate(
+						{scrollTop:$(e).offset().top}, 
+						10,
+						function(){
+							window.location.hash=e 
+						}
+					)}
+				})
+	</script>
+</body>
+</html>
